@@ -15,10 +15,9 @@ menuToggler.addEventListener("click", function () {
   sideBar.classList.toggle("active");
 });
 
-// Ferme la sidebar lorsqu'on clique sur un lien
 menuLinks.forEach((link) => {
   link.addEventListener("click", function () {
-    sideBar.classList.remove("active"); // Enlève la classe 'active' pour fermer le menu
+    sideBar.classList.remove("active");
   });
 });
 
