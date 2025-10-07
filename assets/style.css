@@ -882,6 +882,9 @@ img {
   .form-grid {
     grid-template-columns: 1fr;
   }
+  #company {
+    font-size: var(--font-size-8);
+  }
 }
 
 /* Responsive for 400px */
